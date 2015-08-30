@@ -10,10 +10,6 @@ Scroller 是对 [iScroll](http://iscrolljs.com/) 的 React 封装，用作滑动
 
 ![效果图](http://aligitlab.oss-cn-hangzhou-zmf.aliyuncs.com/uploads/alinwmobile/tingle-scroller/54ffe8617b/image.png)
 
-## Best Practice 最佳实践
-
-这是一个 tingle 组件，使用请参考[这里](http://gitlab.alibaba-inc.com/alinwmobile/tingle/tree/master)。
-
 ## Simple Usage
 
 ```
