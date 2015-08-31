@@ -1,6 +1,6 @@
 /**
  * Scroller Component Demo for tingle
- * @auther caoke.ck
+ * @auther gbk
  *
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
