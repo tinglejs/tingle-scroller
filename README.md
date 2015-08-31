@@ -1,4 +1,4 @@
-## Scroller
+## tingle-scroller [![npm version](https://badge.fury.io/js/tingle-scroller.svg)](http://badge.fury.io/js/tingle-scroller)
 
 The `Scroller Component` for tinglejs.
 

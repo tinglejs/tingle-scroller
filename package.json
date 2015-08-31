@@ -3,7 +3,10 @@
   "version": "0.0.1",
   "description": "The `Scroller Component` for tinglejs",
   "repository": "https://github.com/tinglejs/tingle-scroller.git",
-  "author": "caoke.ck",
+  "author": {
+    "name": "gbk",
+    "email": "ck0123456@gmail.com"
+  },
   "main": "src/index.js",
   "files": [
     "src",
