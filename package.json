@@ -1,6 +1,6 @@
 {
   "name": "tingle-scroller",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The `Scroller Component` for tinglejs",
   "repository": "https://github.com/tinglejs/tingle-scroller.git",
   "author": {
@@ -35,5 +35,5 @@
     "start": "gulp server"
   },
   "license": "MIT",
-  "screenshots": "http://aligitlab.oss-cn-hangzhou-zmf.aliyuncs.com/uploads/alinwmobile/tingle-scroller/54ffe8617b/image.png"
+  "screenshots": "https://img.alicdn.com/tps/TB1UcRFJpXXXXavXXXXXXXXXXXX-321-483.png"
 }

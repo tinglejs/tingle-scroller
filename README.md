@@ -8,7 +8,7 @@ The `Scroller Component` for tinglejs.
 
 Scroller 是对 [iScroll](http://iscrolljs.com/) 的 React 封装，用作滑动容器。内部 iScroll 的版本是 5.1.3。
 
-![效果图](http://aligitlab.oss-cn-hangzhou-zmf.aliyuncs.com/uploads/alinwmobile/tingle-scroller/54ffe8617b/image.png)
+![效果图](https://img.alicdn.com/tps/TB1UcRFJpXXXXavXXXXXXXXXXXX-321-483.png)
 
 ## Simple Usage
 
@@ -72,5 +72,5 @@ t.refs.sc.scroller.scrollTo(0, 100);
 ## Links 相关链接
 
 - [iScroll 官网](http://iscrolljs.com/)
-- [Fire a bug/Issues 提Bug](http://gitlab.alibaba-inc.com/alinwmobile/tingle-scroller/issues)
-- [Tingle项目](http://gitlab.alibaba-inc.com/alinwmobile/tingle/tree/master)
+- [Fire a bug/Issues 提Bug](https://github.com/tinglejs/tingle-scroller/issues)
+- [Tingle项目](https://github.com/tinglejs/generator-tingle)
