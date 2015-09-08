@@ -1,6 +1,6 @@
 /**
  * Scroller Component Demo for tingle
- * @auther gbk
+ * @author gbk
  *
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
@@ -38,7 +38,7 @@ class Scroller extends React.Component {
 
         // 避免很频繁的调用
         clearTimeout(t._timeout);
-        t._timeout = setTimeout(function() {
+        t._timeout = setTimeout(function () {
 
             // 有些场景下不需要刷新
             if (t.props.autoRefresh) {
@@ -71,12 +71,12 @@ class Scroller extends React.Component {
         for (let key in t.props) {
             var matches = /^on([A-Z]\w*)$/.exec(key);
             if (matches) { // 事件
-                var evtName = matches[1].replace(/./, function(p) {
+                var evtName = matches[1].replace(/./, function (p) {
                     return p.toLowerCase();
                 });
                 events[evtName] = t.props[key];
             } else if (key !== 'className' && key !== 'autoRefresh' &&
-                    key !== 'minWidth') { // 配置
+                key !== 'minWidth') { // 配置
                 options[key] = t.props[key];
             }
         }
@@ -96,12 +96,12 @@ Scroller.defaultProps = {
     click: /chrome/i.test(navigator.userAgent),
     autoRefresh: true,
     minWidth: '100%'
-}
+};
 
 // http://facebook.github.io/react/docs/reusable-components.html
 Scroller.propTypes = {
     autoRefresh: React.PropTypes.bool,
     className: React.PropTypes.string
-}
+};
 
 module.exports = Scroller;

@@ -1,10 +1,6 @@
-# tingle-scroller
-
-[![npm version](https://badge.fury.io/js/tingle-scroller.svg)](http://badge.fury.io/js/tingle-scroller)
+# tingle-scroller [![npm version](https://badge.fury.io/js/tingle-scroller.svg)](http://badge.fury.io/js/tingle-scroller)
 
 The `Scroller Component` for tinglejs.
-
----
 
 ## TL;DR
 
@@ -14,13 +10,13 @@ Scroller 是对 [iScroll](http://iscrolljs.com/) 的 React 封装，用作滑动
 
 ## Install
 
-```
+```bash
 npm install tingle-scroller --save
 ```
 
 ## Simple Usage
 
-```
+```js
 render() {
     return (
         <Scroller>
@@ -49,7 +45,7 @@ render() {
 
 - 不在列表中的其余参数全部传透给 iScroll，作为 iScroll 的初始化配置项。
 
-```
+```js
 <Scroller ref="sc" click={true} mouseWheel={false}></Scroller>
 ```
 
@@ -57,13 +53,13 @@ render() {
 
 - 以 on 开头的参数全部作为事件挂载到 iScroll 实例上。
 
-```
+```js
 <Scroller ref="sc" onScrollEnd={t.handleScrollEnd.bind(t)}></Scroller>
 ```
 
 相当于
 
-```
+```js
 t.refs.sc.scroller.on('scrollEnd', t.handleScrollEnd.bind(t));
 ```
 
@@ -73,7 +69,7 @@ t.refs.sc.scroller.on('scrollEnd', t.handleScrollEnd.bind(t));
 
 可通过 ref 到的 component 实例的 `.scroller` 来获取 iScroll 实例，进而调用实例中的所有方法以及获取实例中的各种属性。
 
-```
+```js
 t.refs.sc.scroller.scrollTo(0, 100);
 ```
 

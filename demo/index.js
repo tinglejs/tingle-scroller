@@ -1,11 +1,11 @@
 /**
  * Scroller Component Demo for tingle
- * @auther gbk
+ * @author gbk
  *
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
  */
-var Context = require('tingle-context');
+let Context = require('tingle-context');
 window.FaskClick && FastClick.attach(document.body);
-var Demo = require('./ScrollerDemo');
+let Demo = require('./ScrollerDemo');
 React.render(<Demo/>, document.getElementById('TingleDemo'));

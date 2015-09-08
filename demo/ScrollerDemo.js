@@ -1,12 +1,12 @@
 /**
  * Scroller Component Demo for tingle
- * @auther gbk
+ * @author gbk
  *
  * Copyright 2014-2015, Tingle Team, Alinw.
  * All rights reserved.
  */
-var Scroller = require('../src');
-var GroupList = require('tingle-group-list');
+let Scroller = require('../src');
+let GroupList = require('tingle-group-list');
 
 class Demo extends React.Component {
 
@@ -17,7 +17,7 @@ class Demo extends React.Component {
     }
 
     handleScrollEnd(scroller) {
-        var { x, y } = scroller;
+        let { x, y } = scroller;
         console.log({ x, y });
     }
 
@@ -47,6 +47,5 @@ class Demo extends React.Component {
             </Scroller>
         );
     }
-};
-
+}
 module.exports = Demo;
