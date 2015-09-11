@@ -6,7 +6,7 @@ The `Scroller Component` for tinglejs.
 
 Scroller 是对 [iScroll](http://iscrolljs.com/) 的 React 封装，用作滑动容器。内部 iScroll 的版本是 5.1.3。
 
-![效果图](https://img.alicdn.com/tps/TB1UcRFJpXXXXavXXXXXXXXXXXX-321-483.png)
+<img src="https://img.alicdn.com/tps/TB1jnocJpXXXXcmXpXXXXXXXXXX-750-1254.png" width="375"/>
 
 ## Install
 
