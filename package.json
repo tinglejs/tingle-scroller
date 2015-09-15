@@ -1,7 +1,7 @@
 {
   "name": "tingle-scroller",
   "version": "0.1.1",
-  "description": "The `Scroller Component` for tinglejs",
+  "description": "iScroll Tingle 版本",
   "repository": "https://github.com/tinglejs/tingle-scroller.git",
   "author": {
     "name": "gbk",
