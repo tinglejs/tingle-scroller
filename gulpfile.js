@@ -155,7 +155,8 @@ gulp.task('develop', [
   browserSync({
     server: {
       baseDir: './'
-    }
+    },
+    open: 'external'
   });
 
   gulp.watch(['src/**/*.js', 'demo/src/**/*.js'], ['reload_by_js']);
@@ -178,7 +179,7 @@ gulp.task('build', function () {
     .pipe(babel({
       presets: ['es2015', 'stage-1', 'react']
     }))
-    .pipe(uglify())
+    // .pipe(uglify())
     // 独立的map文件不起作用, 先写到build后的js文件里
     // http://stackoverflow.com/questions/27671390/why-to-inline-source-maps
     .pipe(sourcemaps.write())
