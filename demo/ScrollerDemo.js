@@ -23,8 +23,31 @@ class Demo extends React.Component {
 
     render() {
         return (
-            <Scroller mouseWheel={true} onScrollEnd={this.handleScrollEnd.bind(this)}>
+            <Scroller className="page" mouseWheel={true} onScrollEnd={this.handleScrollEnd.bind(this)}>
                 <GroupList title={"列表标题1"}>
+                    <div className="tFBH">
+                        {/*横向滚动 DEMO*/}
+                        <Scroller className="tFB1" scrollX={true} scrollY={false}>
+                            <div className="tLH44 nowrap">
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                                我可以横向滚动
+                            </div>
+                        </Scroller>
+                    </div>
                     <div className="tLH44 tPL10">aa</div>
                     <div className="tLH44 tPL10">aa</div>
                     <div className="tLH44 tPL10">aa</div>
@@ -35,6 +58,14 @@ class Demo extends React.Component {
                     <div className="tLH44 tPL10">aa</div>
                 </GroupList>
                 <GroupList title={"列表标题2"}>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
+                    <div className="tLH44 tPL10">aa</div>
                     <div className="tLH44 tPL10">aa</div>
                     <div className="tLH44 tPL10">aa</div>
                     <div className="tLH44 tPL10">aa</div>
